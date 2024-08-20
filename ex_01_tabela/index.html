@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+            width: 100%;
+            <table border-collapse="1";> 
+        
+        }
+        th {
+            text-align: center;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        tbody tr:nth-child(even) {
+            background-color: white;
+        }
+        td:last-child {
+            border-right: 0cap;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>TABELA</h1>
+    <p>Uma tabela é um conjunto estruturado de dados composto de linhas e colunas (dados tabulares).</p>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">NBA temporada 21 e 22</th>
+
+            </tr>
+            <tr>
+                <th>Posição</th>
+                <th>Times</th>
+                <th>Vitórias</th>
+                <th>Jogos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background-color: aqua;">1</td>
+                <td style="background-color: aqua;">Golden State Warriors</td>
+                <td style="background-color: aqua;">31</td>  
+                <th rowspan="4"; style="background-color: aqua;">35</th>
+            
+            </tr>
+            <tr>
+                <td >2</td>
+                <td >Phoenix Suns</td>
+                <td >29</td>
+              
+            </tr>
+            <tr>
+                <td style="background-color: aqua;">3</td>
+                <td style="background-color: aqua;">Brooklyn Nets</td>
+                <td style="background-color: aqua;">28</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
