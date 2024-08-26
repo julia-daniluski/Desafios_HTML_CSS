@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Formulário</title>
 </head>
 <body>
-   <h1 style="color: red; background-color: rgba(255, 215, 215, 0.445);"> FORMULÁRIO DE INTERAÇÃO</h1>
+   <h1> FORMULÁRIO DE INTERAÇÃO</h1>
    <div class="container">
-    <form action=""><p>NOME COMPLETO: <input type="text" name="nome" placeholder="Digite aqui seu nome..." required ></p>
+    <form action="" ><p>Nome Completo: <input type="text" name="nome" placeholder="Digite aqui seu nome..." required ></p>
      </form>
-     <form action=""><p>ENDEREÇO: <input type="text" name="endereço" placeholder="Digite aqui seu endereço..."></p>
+     <form action=""><p>Endereço: <input type="text" name="endereço" placeholder="Digite aqui seu endereço..."></p>
      </form>
      <form action=""><p>Complemento: <input type="text" name="complemento" value="Bl 2 apto 95"></p>
      </form>
@@ -22,7 +23,7 @@
      </form>
      <form action="">
         <p>Deixe sua sugestão ou mensagem:</p>  <form action="">
-            <input type="text" maxlength="500" placeholder= "Digite até 500 caracteres.">
+            <input type="text" maxlength="1000"  placeholder= "Digite até 500 caracteres." class="caixa" align>
         </form>
     <form action="">
             <p>Escolha o(s) modelo(s) de trabalho(s):</p>  <form action="">
@@ -36,10 +37,13 @@
     <form action="">
             <p>Escolha o período de trabalho:</p>  <form action="">
                 <ul>
-                    <li><input type="radio" name="Manhã" id=""> Presencial   </li>
-                    <li><input type="radio" name="Tarde" id=""> Híbrido</li>
-                    <li><input type="radio" name="Noite" id=""> Remoto</li>
-                    <li><input type="radio" name="Madrugada" id=""> Remoto</li>
+                    <li><input type="radio" name="Manhã" id=""> Manhã  </li>
+                    <li><input type="radio" name="Tarde" id=""> Tarde</li>
+                    <li><input type="radio" name="Noite" id=""> Noite</li>
+                    <li><input type="radio" name="Madrugada" id=""> Madrugada </li>                
+                        <br>
+                    
+
                  
                     <p style="color: rgb(255, 255, 255);">Escolha um estado</p>
 

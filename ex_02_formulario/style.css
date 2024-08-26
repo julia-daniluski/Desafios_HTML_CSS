@@ -1,7 +1,15 @@
-
-.titulo-background { 
-    color: red;
-    background-color: white;
-    font-size: 30px;
-    font-style: oblique;
+body {
+    background-color:rgba(255, 215, 215, 0.445);  
 }
+.caixa {
+  width: 600px ;
+  height: 200px ;
+  border: 1px solid black ;
+  padding: 10px ;
+  box-sizing: border-box ;  
+}
+
+h1 {
+    color: red; font-size: 50px;
+}
+
